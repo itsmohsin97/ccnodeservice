@@ -1,0 +1,14 @@
+{
+    "song": {
+          "songName": "TestSong",
+            "songUrl": "http://youtube//",
+            "language": "Tamil",
+            "remark": "Test",
+            "filePath": "d:/song",
+            "singerId":1,
+            "composerId":1,
+            "talamId": 1,
+            "ragamId": 1,
+            "deityId": 1
+    }
+}

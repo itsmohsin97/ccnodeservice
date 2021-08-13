@@ -1,0 +1,19 @@
+version: "3.4"
+services:
+  carnaticcorner: #docker run -it -v ${PWD}:/work -w /work -p 3000:1000 carnaticcorner:2.0.0 /bin/sh
+    container_name: ccnodeservice
+    image: carnaticcorner:5.0.0
+    build:
+      context: .
+      target: debug
+    #working_dir: /work      #comment out for build.target:prod
+    #entrypoint: /bin/sh     #comment out for build.target:prod
+    #stdin_open: true        #comment out for build.target:prod
+    #tty: true               #comment out for build.target:prod
+    volumes:
+    - ./:/work/src/
+    env_file:
+      - .env 
+    ports:
+      - 3000:1000
+      - 9229:9229            #debug port

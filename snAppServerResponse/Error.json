@@ -1,0 +1,13 @@
+﻿{
+  "11": "RTF Parser failed to parse the document",
+  "12": "Special characters found",
+  "13": "Failed to get RhythmClipLineId for given syllables and instrument",
+  "14": "Failed to get text for a given rhythmclipline id",
+  "15": "Validation Error",
+  "101": "One or more clips contain invalid text",
+  "102": "One or more lines contain clip with invalid text",
+  "103": "Failed to parse the file",
+  "104": "someError - Induced for Testing",
+  "1001": "Internal Server Error"
+
+}

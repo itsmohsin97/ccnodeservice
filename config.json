@@ -1,0 +1,21 @@
+﻿{
+  "nodeserver": {
+    "host": "127.0.0.1",
+    "port": "1000"
+  },
+     "dbconfig": {
+            "development": {
+                "username": "root",
+                "password": "password",
+                "database": "carnaticcorner",
+                "host":  "host.docker.internal",
+                "dialect": "mysql",
+                "pool": {
+                    "max": 5,
+                    "min": 0,
+                    "idle": 10000
+                },
+                "use_env_variable":"env"
+            }
+        }
+}
